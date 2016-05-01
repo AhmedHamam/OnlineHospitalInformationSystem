@@ -1,0 +1,137 @@
+﻿
+@model OnlineHospitalInformationSystem.Models.SerialBookingModel
+
+@{
+    ViewBag.Title = "RecordSerial";
+}
+<link href="~/Css/All.css" rel="stylesheet" />
+
+
+<div id="example" style="min-width: 500px">
+    <div class="demo-section k-content" >
+        <h2>Record Serial</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <hr />
+            @Html.ValidationSummary(true)       
+            <table style="border-collapse: separate;border-spacing:1.7em">               
+                <tr>
+                    <td>@Html.LabelFor(model => model.PatientName)
+                    </td>
+                    <td>@Html.EditorFor(model => model.PatientName)</td>
+                    <td>@Html.ValidationMessageFor(model => model.PatientName)</td>
+                </tr>
+             
+                <tr>
+                    <td>@Html.LabelFor(model => model.PatientAge)
+                    </td>
+                    <td>@Html.EditorFor(model => model.PatientAge)</td>
+                    <td>@Html.ValidationMessageFor(model => model.PatientAge)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.MaritalStatus)
+                    </td>
+                    <td>@Html.DropDownListFor(m => m.MaritalStatus, new List<SelectListItem>
+                        {
+                            new SelectListItem{Text = "Married",Value = "Married"},
+                            new SelectListItem{Text = "Unmarried",Value = "Unmarried"}
+                        }, "Select ....", new { Style = "min-width:200px",@class="form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.MaritalStatus)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.HospitalId)
+                    </td>
+                    <td>@Html.DropDownListFor(model => model.HospitalId, (SelectList)ViewBag.hospitals, "Select Hospital", new { Style = "min-width:200px", @class = "form-control" })
+                    </td>
+                    <td>@Html.ValidationMessageFor(model => model.HospitalId)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.Doctor)
+                    </td>
+                    <td>@Html.DropDownListFor(model => model.Doctor, (SelectList)ViewBag.doctors, "Select doctor", new { Style = "min-width:200px", @class = "form-control" })
+                    </td>
+                    <td>@Html.ValidationMessageFor(model => model.Doctor)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.PatientType)
+                    </td>
+                    <td>@Html.DropDownListFor(m => m.PatientType, new List<SelectListItem>
+                        {
+                            new SelectListItem{Text = "New",Value = "New"},
+                            new SelectListItem{Text = "Old",Value = "Old"}
+                        }, "Select ....", new { Style = "min-width:200px", @class = "form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.PatientType)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.Gender)
+                    </td>
+                    <td>@Html.DropDownListFor(m => m.Gender, new List<SelectListItem>
+                        {
+                            new SelectListItem{Text = "Male",Value = "Male"},
+                            new SelectListItem{Text = "Female",Value = "Female"}
+                        }, "Select gender", new { Style = "min-width:200px", @class = "form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.Gender)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.VisitDate)
+                    </td>
+                    <td>@Html.EditorFor(model => model.VisitDate,new{type="date"})</td>
+                    <td>@Html.ValidationMessageFor(model => model.VisitDate)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Add Serial" class="btn btn-default" />
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+  
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+
+    </div>
+</div>
+<span id="notification" style="display:none;"></span>
+<input type="hidden" value="@ViewBag.successVal" id="SuccessNotificationIdBox" />
+<script id="successTemplate" type="text/x-kendo-template">
+    <div class="hospitalInsertion-success">
+
+        <img src="/Icons/success-icon.png" />
+        <h3>Serial Recorded  Successfully</h3>
+    </div>
+</script>
+<button id="t">Test</button>
+@section Scripts {
+@Scripts.Render("~/bundles/jqueryval")
+<script src="~/Scripts/Notification.js"></script>
+        <script>
+            $('#HospitalId').on('change', function () {
+                var courseCodeDropdown = $('#Doctor');
+                courseCodeDropdown.prop('disabled', 'disabled');
+                courseCodeDropdown.empty();
+                var hospitalId = $(this).val();
+                $.getJSON('@Url.Action("GetDoctorsByHospital")', {
+                    HospitalId: hospitalId
+                })
+           .done(function (data) {
+               courseCodeDropdown.removeProp('disabled');
+               $.each(data, function (i, state) {
+                   var option = $('<option />').html(state);
+                   courseCodeDropdown.append(option);
+               });
+           })
+           .fail(function (jqxhr, textStatus, error) {
+               var err = textStatus + ", " + error;
+               console.log("Request Failed: " + err);
+           });
+            });
+            $("#PatientName,#PatientAge").addClass("k-textbox");
+            $("#VisitDate").kendoDatePicker({ format: "dd/MM/yyyy" });         
+        </script>
+
+    }

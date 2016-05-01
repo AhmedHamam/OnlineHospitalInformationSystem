@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Test</h2>
+@Html.DropDownList("d", (SelectList)
+            ViewBag.institutions, new { id = "d" })
+<input type="submit" value="Test" id="s" />
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+  
+<script src="~/KendoUI/kendo.all.min.js"></script>
+
+    <script>
+        $("#d").kendoMultiSelect({ placeholder: "Select ..." });
+        $("#s").click(function () {
+
+
+            $.ajax({
+                url: '/Admin/Test',
+                dataType: "json",
+                data: {
+                    d: $('#d').val(),
+
+
+
+                },
+                type: 'POST',
+
+                success: function (data) {
+                    alert(data.result);
+
+
+                },
+                error: function () {
+                    alert("error");
+
+                }
+            });
+        });
+    </script>
+}
+
+
+
+
+

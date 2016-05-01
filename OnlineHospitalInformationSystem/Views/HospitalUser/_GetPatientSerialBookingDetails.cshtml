@@ -1,0 +1,82 @@
+﻿@using OnlineHospitalInformationSystem.Models
+@model OnlineHospitalInformationSystem.Models.PatientSerialBookingDetailsViewModel
+
+<div >
+
+    <hr />
+    <dl class="dl-horizontal">
+
+        @foreach (var item in (IEnumerable<PatientSerialBookingDetailsViewModel>) ViewBag.details)
+        {
+             <dt>
+            @Html.DisplayNameFor(model => item.PatientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.PatientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => item.PatientType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.PatientType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => item.VisitDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.VisitDateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => item.Doctor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.Doctor)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => item.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => item.MaritalStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.MaritalStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => item.BookingDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.BookingDateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => item.Sex)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => item.Sex)
+        </dd>
+
+        }
+       
+    </dl>
+</div>
+
+

@@ -1,0 +1,80 @@
+﻿@model IEnumerable<OnlineHospitalInformationSystem.Models.HospitalViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table table-bordered" id="hospitalsViewGrid">
+    <tr>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.Hospitalname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+ 
+     
+        <th data-sortable="false" data-menuable="false" data-filterable="false">
+            @Html.DisplayNameFor(model => model.HospitalImage)
+        </th>
+     
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+     
+        <td>
+            <a href='/Home/DisplayHospitalInformation/@item.HospitalId' style="font-family: Arial;font-weight: bold">  @Html.DisplayFor(modelItem => item.Hospitalname)</a>
+    
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+            <span style="color: skyblue;font-weight: bold"> (@Html.DisplayFor(modelItem => item.HospitalType))</span>
+        </td>
+ 
+     
+        <td >
+            <img src='data:image/jpg;base64,@Convert.ToBase64String(item.HospitalImage)'  style="max-width: 500px;max-height: 300px" />
+        </td>
+    
+    </tr>
+}
+
+</table>
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+<script src="~/KendoUI/kendo.all.min.js"></script>
+    <script>
+        $("#hospitalsViewGrid").kendoGrid({
+
+
+            pageable: {
+                refresh: true,
+                pageSizes: true
+            
+            }
+
+     , dataSource: { pageSize: 10 }
+     ,
+
+            scrollable: true
+     ,
+            sortable: true,
+            filterable: {
+                extra: false,
+                operators: {
+                    string: {
+                        contains: "Contains"
+
+                    }
+                }
+            },
+            columnMenu: false,
+            serverPaging: true,
+            type: "odata"
+        });
+    </script>
+}

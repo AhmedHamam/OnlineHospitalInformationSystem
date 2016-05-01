@@ -1,0 +1,224 @@
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll.config
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.pdb
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Owin.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Helpers.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Mvc.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Optimization.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Razor.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\WebActivatorEx.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\WebGrease.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Helpers.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Mvc.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Optimization.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Razor.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.pdb
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.csprojResolveAssemblyReference.cache
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.dll
+C:\Users\o\documents\visual studio 2013\Projects\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.pdb
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll.config
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.pdb
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Owin.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Helpers.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Mvc.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Optimization.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Razor.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\WebActivatorEx.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\WebGrease.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Helpers.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Mvc.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Optimization.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.Razor.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.pdb
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.csprojResolveAssemblyReference.cache
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.dll
+C:\Users\o\Desktop\OnlineHospitalInformationSystem\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.pdb
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll.config
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.pdb
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Owin.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Helpers.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Mvc.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Optimization.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Razor.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\WebActivatorEx.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\WebGrease.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Helpers.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Mvc.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Optimization.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Razor.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.pdb
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.dll
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.pdb
+C:\Users\anowar\Desktop\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.csprojResolveAssemblyReference.cache
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll.config
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\OnlineHospitalInformationSystem.pdb
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Owin.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Helpers.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Mvc.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Optimization.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Razor.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\WebActivatorEx.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\WebGrease.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Helpers.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Mvc.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Optimization.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.Razor.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Deployment.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\System.Web.WebPages.Razor.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Newtonsoft.Json.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Antlr3.Runtime.pdb
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\EntityFramework.SqlServer.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.csprojResolveAssemblyReference.cache
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.dll
+D:\OnlineHospitalInformationSystem-master\OnlineHospitalInformationSystem\obj\Debug\OnlineHospitalInformationSystem.pdb

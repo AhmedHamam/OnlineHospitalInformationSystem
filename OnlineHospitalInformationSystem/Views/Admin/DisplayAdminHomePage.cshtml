@@ -1,0 +1,298 @@
+﻿@using System.Collections
+@using OnlineHospitalInformationSystem.Models
+@{
+    ViewBag.Title = "DisplayAdminHomePage";
+}
+
+<div class="bs-docs-example">
+    <ul id="myTab" class="nav nav-tabs">
+
+        <li class="active">
+            <a href="#DoctorInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Doctor's Info
+            </a>
+
+
+
+        </li>
+        <li>
+            <a href="#DegreeInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Degree Info
+            </a>
+
+
+
+        </li>
+        <li>
+            <a href="#DepartmentInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Department Info
+            </a>
+
+
+
+        </li>
+        <li>
+            <a href="#HospitalInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Hospital Info
+            </a>
+
+
+
+        </li>
+        <li>
+            <a href="#TestInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Test Info
+            </a>
+
+
+
+        </li>
+        <li>
+            <a href="#SpecilizationInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Specilization Info
+            </a>
+
+
+
+        </li>
+        <li>
+            <a href="#VisitInfo" data-toggle="tab">
+
+                <i class="icon-info-sign"></i>
+                Visit Info
+            </a>
+
+
+
+        </li>
+
+        <li class="dropdown">
+
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-eye-open"></i>
+                Insert<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New  Degree", "AddDegree", "Admin", new { id = "ResultLinkId" })
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New Doctor", "GetBacklogRegistrationDetails", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New Hospital", "AddHospital", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink(" Add New  Department", "AddDepartment", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New Institution", "AddInstitution", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New Test", "AddTest", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New Visit", "AddVisit", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#dropdown1" data-toggle="tab">
+
+                        @Html.ActionLink("Add New Specilization", "AddSpecilization", "Admin", new { id = "regBacklogLinkId" })
+
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <div id="myTabContent" class="tab-content">
+
+
+        <div class="tab-pane fade in active" id="DoctorInfo">
+            This is for search Student
+
+        </div>
+        <div class="tab-pane fade in " id="DegreeInfo">
+            <table class="table table-bordered">
+                <tr>
+                    <th style="text-align: center">Degree</th>
+                </tr>
+
+                @foreach (var degree in (IEnumerable)ViewData["Degrees"])
+                {
+                <tr>
+                    <td style="text-align: center">
+                        @degree
+                    </td>
+                </tr>
+
+                }
+            </table>
+
+        </div>
+
+        <div class="tab-pane fade in " id="DepartmentInfo">
+            <table class="table table-bordered">
+                <tr>
+                    <th style="text-align: center">Department</th>
+                </tr>
+
+                @foreach (var department in (IEnumerable)ViewData["Departments"])
+                {
+                    <tr>
+                        <td style="text-align: center">
+                            @department.ToString()
+                        </td>
+                    </tr>
+
+                }
+            </table>
+
+        </div>
+        <div class="tab-pane fade in " id="HospitalInfo">
+
+            <table class="table table-bordered">
+                <tr>
+                    <th style="text-align: center">Hospital name</th>
+                    <th style="text-align: center">Hospital Type</th>
+                    <th style="text-align: center">Location</th>
+                    <th style="text-align: center">Description</th>
+                </tr>
+
+                @foreach (var item in (IEnumerable<HospitalViewModel>)ViewData["Hospitals"])
+                {
+                    <tr>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => item.Hospitalname)
+                        </td>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => item.HospitalType)
+                        </td>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => item.Location)
+                        </td>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => item.Description)
+                        </td>
+                    </tr>
+
+                }
+            </table>
+        </div>
+        <div class="tab-pane fade in " id="TestInfo">
+
+            <table class="table table-bordered">
+                <tr>
+                    <th style="text-align: center">Test Name</th>
+                    <th style="text-align: center">Hospital </th>
+                    <th style="text-align: center">Cast (Taka)</th>
+                </tr>
+
+                @foreach (var test in (IEnumerable<TestViewModel>)ViewData["Tests"])
+                {
+                    <tr>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => test.TestName)
+                        </td>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => test.Hospital)
+                        </td>
+                        <td style="text-align: center">
+                            @Html.DisplayFor(m => test.Cost)
+                        </td>
+                    </tr>
+
+                }
+            </table>
+        </div>
+
+        <div class="tab-pane fade in " id="SpecilizationInfo">
+            <table class="table table-bordered">
+                <tr>
+                    <th style="text-align: center">Name of Specilization</th>
+                </tr>
+
+                @foreach (var specilization in (IEnumerable)ViewData["Specilizations"])
+                {
+                    <tr>
+                        <td style="text-align: center">
+                            @specilization.ToString()
+                        </td>
+                    </tr>
+
+                }
+            </table>
+        </div>
+
+        <div class="tab-pane fade in " id="VisitInfo">
+            <table class="table table-bordered">
+                <tr>
+                    <th style="text-align: center">Visit (Taka)</th>
+
+                </tr>
+
+                @foreach (var visit in (IEnumerable)ViewData["Visits"])
+                {
+                    <tr>
+                        <td style="text-align: center">
+                            @visit
+                        </td>
+
+                    </tr>
+
+                }
+            </table>
+        </div>
+    
+    </div>
+</div>
+
+@section scripts{
+
+    <script>
+
+    </script>
+}

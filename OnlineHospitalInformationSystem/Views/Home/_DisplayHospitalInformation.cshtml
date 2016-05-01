@@ -1,0 +1,53 @@
+﻿
+@using OnlineHospitalInformationSystem.Models
+@model DepartmentViewModel
+
+<style>
+    .button {
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2px 6px 2px 6px;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+    }
+</style>
+<table class="table table-bordered" style="border: 2px">
+
+    <tr>
+        <th>Doctors</th>
+        <th>Gender</th>
+        <th >Available</th>
+        <th>Time</th>
+        <th>Visit</th>
+    </tr>
+
+
+    @foreach (var b in (List<DoctorDetailsViewModel>)ViewData["list"])
+    {
+
+        <tr>
+            <td><span style="font-family: Arial;font-weight: bold;color: blueviolet;font-size: 22px">@b.Name <br/></span><span style="color: darkcyan">@b.Degree</span>  ,<span style="color: darkolivegreen">@b.Instution</span>
+                <span style="color: cornflowerblue"></span>
+            </td>
+           <td>@b.Gender </td>
+            
+            <td >
+                  
+                         
+    <span style="color: lightcoral">  @b.Days </span>
+                   
+              
+
+                </td>
+            <td>@b.Time</td>
+            <td>@b.Visit</td>
+        </tr>
+
+    }
+
+</table>
+

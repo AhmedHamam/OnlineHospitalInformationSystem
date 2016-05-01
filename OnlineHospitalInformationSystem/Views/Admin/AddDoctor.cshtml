@@ -1,0 +1,187 @@
+﻿@using OnlineHospitalInformationSystem.Models
+@model DoctorAddModel
+
+@{
+    ViewBag.Title = "AddDoctor";
+}
+
+<h2>AddDoctor</h2>
+<table>
+    <tr>
+        <td>Doctor Name</td><td>@Html.EditorFor(model => model.Name)</td>
+     
+
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><select name="Gender" id="Gender">
+                <option value="">Select...</option>
+                <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            </select></td>
+
+
+    </tr>
+    <tr>
+        <td>Department</td>
+        <td>@Html.DropDownListFor(m => m.DepartmentId, (SelectList)ViewBag.departments, "Select......")
+</td>
+
+
+    </tr>
+    <tr>
+        <td>Degree</td>
+        <td><select id="DegreeSelectList" multiple="multiple" style="min-width: 200px">
+
+
+    @foreach (var item in (IEnumerable<DegreeSelectList>)ViewBag.degrees)
+    {
+        <option value="@item.DegreeId">
+            @item.Degree
+        </option>
+    }
+
+</select>
+<select multiple="multiple" id="DegreeIdList" name="DegreeIdList" style="min-width: 200px;"></select>
+</td>
+
+
+    </tr>
+    <tr>
+        <td>Institution Name</td>
+        <td><select id="InstitutionSelectList" multiple="multiple" style="min-width: 200px">
+
+
+    @foreach (var item in (IEnumerable<InstitutionSelectList>)ViewBag.institutions)
+    {
+        <option value="@item.InstitutionId">
+            @item.Institution
+        </option>
+    }
+
+</select>
+<select multiple="multiple" id="InstitutionIdList" name="InstitutionIdList" style="min-width: 200px;"></select>
+</td>
+
+
+    </tr>
+    <tr>
+        <td>Specilized In</td>
+        <td><select id="SpecilizationId" name="SpecilizationId" style="min-width: 200px">
+
+    <option value="">Select.....</option>
+    @foreach (var item in (IEnumerable<SpecilizationSelectList>)ViewBag.specilizations)
+    {
+        <option value="@item.SpecilizationId">
+            @item.Specilization
+        </option>
+    }
+
+</select>
+
+</td>
+
+
+    </tr>
+    <tr>
+        <td>Hospital Name (<span style="color: darkgrey"> Working now</span>)</td>
+        <td>@Html.DropDownListFor(m => m.HospitalId, (SelectList)ViewBag.hospitals,"Select.....")
+        </td>
+
+
+    </tr>
+    <tr>
+        <td>Visit</td>
+        <td>@Html.EditorFor(model => model.Visit)</td>
+    </tr>
+    <tr>
+        <td><span style="color: darkgrey"> (Only check if doctor has BCS)</span> </td>
+        <td><input type="checkbox" id="CheckBoxId" /></td>
+    </tr>
+    <tr id="govHospitalSelectId">
+        <td> Working In </td>
+        <td>@Html.DropDownListFor(m => m.GovHospitalId, (SelectList)ViewBag.govHospitals,"Select.....", new { id = "GovHospitalId" })</td>
+    </tr>
+    <tr>
+        <td>  </td>
+        <td><input type="submit" value="Add Doctor" class="btn btn-default" id="btnFormSubmitId" onclick="SubmitRecord();" />  </td>
+    </tr>
+</table>
+
+
+
+<div>
+    @Html.ActionLink("Back to List", "DisplayAdminHomePage")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+<script src="~/KendoUI/kendo.all.min.js"></script>
+    <script>
+
+     //  $("#DegreeId,#InstitutionId,#SpecilizationId").kendoMultiSelect({ placeholder: "Select ..." });
+
+     
+       $("#govHospitalSelectId").hide();
+       var count = 1;
+       $("#CheckBoxId").click(function() {
+           if (count%2!=0) {
+               $("#govHospitalSelectId").show();
+               count++;
+           } else {
+               $("#govHospitalSelectId").hide(); count++;
+           }
+       });
+
+       $("#InstitutionSelectList").click(function () {
+           var obj = ($("#InstitutionSelectList option:selected"));
+           $.each(obj, function (index, item) {
+               $("#InstitutionIdList").append($(this));
+           });
+
+       });
+       $("#DegreeSelectList").click(function () {
+           var obj = ($("#DegreeSelectList option:selected"));
+           $.each(obj, function (index, item) {
+               $("#DegreeIdList").append($(this));
+           });
+
+       });
+   
+        function SubmitRecord() {
+
+            if ($("#DegreeIdList").val() == null || $("#InstitutionIdList").val() == null || $("#Gender").val() == "" || $("#SpecilizationId").val() == "" || $("#Name").val() == "" || $("#Visit").val() == "" || $("#HospitalId").val() == "" || $("#DepartmentId").val() == "") {
+                alert("Please Fillup all fields!");
+            } else {
+           
+                $.ajax({
+                    url: '/Admin/AddDoctor',
+                    dataType: "json",
+                    data: {
+                        Name: $('#Name').val(),
+                        Gender: $('#Gender').val(),
+                        DepartmentId: $('#DepartmentId').val(),                  
+                        HospitalId: $('#HospitalId').val(),
+                        Visit: $('#Visit').val(),
+                        DegreeIdList: $('#DegreeIdList').val(),
+                        InstitutionIdList: $('#InstitutionIdList').val(),
+                        SpecilizationId: $('#SpecilizationId').val(),
+                        GovHospitalId: $('#GovHospitalId').val(),
+
+                    },
+                    type: 'POST',
+
+                    success: function (data) {
+                        alert(data.result);
+
+
+                    },
+                    error: function () {
+                        alert("error");
+
+                    }
+                });
+            }
+        }
+    </script>
+}

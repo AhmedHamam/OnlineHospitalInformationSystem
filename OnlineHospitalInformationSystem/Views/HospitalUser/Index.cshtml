@@ -1,0 +1,115 @@
+﻿@model IEnumerable<OnlineHospitalInformationSystem.Models.PatientSerialBookingViewModel>
+
+@using (Html.BeginForm())
+{
+    <table style="border-collapse: separate;border-spacing:1.7em">
+        <tr>
+            <td style="font-family: Courier New;">
+                Search By Name
+            </td>
+            <td>
+
+                <input type="search" class="form-control" name="doctorName" placeholder="Enter docto name"/>
+
+            </td>
+        
+
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <input type="submit" class="btn btn-info" value="Search" />
+            </td>
+        </tr>
+    </table>
+}
+<table class="table table-bordered" id="PatientsBookingDetilsGrid">
+    <tr>
+        <th data-filterable="false">
+            @Html.DisplayNameFor(model => model.SerialNo)
+        </th>
+        <th data-filterable="false">
+            @Html.DisplayNameFor(model => model.PatientName)
+        </th>
+     
+    
+        <th data-filterable="false">
+            @Html.DisplayNameFor(model => model.PatientType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VisitDateTime)
+        </th>
+     
+        <th data-filterable="false">
+            @Html.DisplayNameFor(model => model.Doctor)
+        </th>
+        <th data-filterable="false">Detils</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SerialNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientName)
+            </td>
+       
+        
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitDateTime)
+            </td>
+      
+            <td>
+                @Html.DisplayFor(modelItem => item.Doctor)
+            </td>
+       <td>@Html.ActionLink("Details", "GetPatientSerialBookingDetails", new { patientId = item.PatientId, hospitalId = ViewBag.hospitalId, doctorId = item.DoctorId }, new { @class = "lnkDetail btn btn-info" })
+</td>
+        </tr>
+    }
+
+</table>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $("#PatientsBookingDetilsGrid").kendoGrid({
+
+
+            pageable: {
+                refresh: true,
+                pageSizes: true
+
+            }
+
+            , dataSource: { pageSize: 10 }
+            ,
+
+            scrollable: true
+            ,
+            sortable: true,
+            filterable:    {
+                mode: "row",
+                extra: false,
+                operators: {
+                    string: {
+                        contains: "Contains"
+
+                    }
+                }
+            },
+            columnMenu: false,
+            serverPaging: true, 
+            serverFiltering: true,
+            type: "odata"
+        });
+    </script>
+}
+
+
+

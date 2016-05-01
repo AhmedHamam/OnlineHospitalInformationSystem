@@ -1,0 +1,89 @@
+﻿@using OnlineHospitalInformationSystem.Models
+
+<h2 style="text-align: center;color: green">@ViewBag.CurrentHospitalName</h2><br/><br/>
+<h3>List of Doctors of <b>@ViewBag.CurrentHospitalDepartmentName </b> department</h3>
+<table class="table table-bordered" style="border: 2px" id="GridForDoctorsByDepartmentAndHospital">
+    <tr>
+        <th>Doctor Name</th>
+        <th data-sortable="false" data-menuable="false" data-filterable="false">Gender</th>
+        <th data-sortable="false" data-menuable="false" data-filterable="false">Visit</th>
+        <th data-sortable="false" data-menuable="false" data-filterable="false">Details</th>
+    </tr>
+
+    @foreach (var item in (IQueryable<DoctorViewModelByDepartmentAndHospital>)ViewBag.doctorsByDepartmentAndHospital)
+    {
+      
+        <tr>
+            <td>@Html.DisplayFor(m => item.Name)</td>
+            <td>@Html.DisplayFor(m => item.Gender)</td>
+            <td>@Html.DisplayFor(m => item.Visit)</td>
+            <td>
+                @Html.ActionLink("Details", "GetDoctorDetails", new { doctorname = item.Name, hospitalId = item.HospitalId, departmentId = item.DepartmentId }, new { @class = "lnkDetail btn btn-info" })
+
+            </td>
+        </tr>
+
+    }
+</table>
+
+
+<br/>
+@Html.ActionLink("Back To Previous Page", "DisplayHospitalInformation", new { id = ViewBag.hospitalId })
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+
+    <script>
+
+
+
+
+        $("#GridForDoctorsByDepartmentAndHospital").kendoGrid({
+
+
+            pageable: {
+                refresh: true,
+                pageSizes: true,
+                buttonCount: 5
+            }
+            , dataSource: { pageSize: 5 }
+            ,
+            scrollable: false
+            ,
+            sortable: true,
+            filterable: {
+                extra: false,
+                operators: {
+                    string: {
+                        contains: "Contains"
+
+                    }
+                }
+            },
+            columnMenu: false,
+            serverPaging: true,
+            type: "odata"
+
+
+
+        });
+        var getValue = $("#TabActiveDeactiveHiddenBoxId").val();
+        if (getValue == 0) {
+            $("#defaultActiveTavListId").addClass('active');
+            $("#home").addClass('active');
+        } else {
+            $("#DoctorsTabListId").addClass('active');
+            $("#Doctors").addClass('active');
+        }
+
+
+    </script>
+
+
+
+
+}
+
+

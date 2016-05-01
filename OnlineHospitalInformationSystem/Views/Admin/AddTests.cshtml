@@ -1,0 +1,136 @@
+﻿
+@model OnlineHospitalInformationSystem.Models.TestsAddModel
+
+@{
+    ViewBag.Title = "AddTests";
+}
+
+<h2>AddTests</h2>
+
+<script id="successTemplate" type="text/x-kendo-template">
+    <div class="insert-success">
+
+        <h4><img src="/Images/success-icon.png" />  #= message #</h4>
+    </div>
+</script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>TestsAddModel</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TestName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.TestName,new{@class="k-textbox empty"})
+                @Html.ValidationMessageFor(model => model.TestName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RoomNo, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.RoomNo, new { @class = "k-textbox roomEmpty" })
+                @Html.ValidationMessageFor(model => model.RoomNo)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Coast, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Coast, new { @class = "k-textbox roomEmpty" })
+                @Html.ValidationMessageFor(model => model.Coast)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FloorNo, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("FloorNo", new List<SelectListItem>
+            {
+                new SelectListItem{Text = "1st Floor",Value = "1st Floor"},
+                new SelectListItem{Text = "2nd Floor",Value = "2nd Floor"},
+                    new SelectListItem{Text = "3rd Floor",Value = "3rd Floor"},
+                new SelectListItem{Text = "4th Floor",Value = "4th Floor"},
+
+                new SelectListItem{Text = "5th Floor",Value = "5th Floor"},
+                     new SelectListItem{Text = "6th Floor",Value = "6th Floor"},
+                    new SelectListItem{Text = "7th Floor",Value = "7th Floor"},
+                new SelectListItem{Text = "8th Floor",Value = "8th Floor"},
+                    new SelectListItem{Text = "9th Floor",Value = "9th Floor"},
+                new SelectListItem{Text = "10th Floor",Value = "10th Floor"},
+                    new SelectListItem{Text = "11th Floor",Value = "11th Floor"},
+                new SelectListItem{Text = "12th Floor",Value = "12th Floor"},
+                    new SelectListItem{Text = "13th Floor",Value = "13th Floor"},
+                new SelectListItem{Text = "14th Floor",Value = "14th Floor"},
+                    new SelectListItem{Text = "15th Floor",Value = "15th Floor"}
+
+
+            }, "Select Floor", new { id = "genderSelectBoxId", @class = "form-control" })
+
+
+                @Html.ValidationMessageFor(model => model.FloorNo)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Hospital Name", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("HospitalId", (MultiSelectList)ViewBag.hospitalNames, "Select Hospital", new { id = "deptSelectBoxId", @class = "form-control " })
+
+
+                @Html.ValidationMessageFor(model => model.HospitalId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<input type="hidden" value="@ViewBag.insetSuccessId" id="successTextBoxId" />
+
+<span id="notification" style="display:none;"></span>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+
+        var notification = $("#notification").kendoNotification({
+            position: {
+                pinned: true,
+                top: 30,
+                right: 30
+            },
+            autoHideAfter: 3300,
+            stacking: "down",
+            templates: [
+                {
+                    type: "insert-success",
+                    template: $("#successTemplate").html(),
+                }
+            ]
+        }).data("kendoNotification");
+        if ($("#successTextBoxId").val() == 1) {
+
+            notification.show({
+                message: "New record has been inserted successfully"
+            }, "insert-success");
+            $('.empty').empty();
+            $('.roomEmpty').attr('value',"");
+        }
+
+       
+    </script>
+
+
+}
